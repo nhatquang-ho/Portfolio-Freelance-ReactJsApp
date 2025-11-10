@@ -1,0 +1,138 @@
+{
+  "name": "NHAT QUANG HO",
+  "title": "Full Stack Developer · Java / ReactJS",
+  "about": "Freelance software engineer specialized in modern web development.",
+  "download_cv": "Download CV",
+  "github": "GitHub",
+  "linkedin": "LinkedIn",
+
+  "projects": {
+    "list": [
+      {
+        "title": "EDF Renewables - GAÏA",
+        "description": "Land management application. Secured REST APIs (JWT, Azure AD), interactive cartographic UI (ArcGIS SDK), automated document generation, DB migrations",
+        "tags": ["Spring Boot", "ReactJs", "SQL Server", "Gitlab CI/CD", "Docker"]
+      },
+      {
+        "title": "SUEZ - AriaCity Plugin",
+        "description": "Plugin for air pollution calculation, geoprocessing, and environmental impact visualization.",
+        "tags": ["ArcGis Pro", "QGIS", "Python", "C#", "Gitlab CI/CD"]
+      },
+      {
+        "title": "ONF - Android Mobile Application",
+        "description": "Application for collecting field data, geolocation, taking photos, improving forestry operations",
+        "tags": ["Kotlin", "JetPack Compose", "Python", "PostgreSQL", "Gitlab CI/CD"]
+      },
+      {
+        "title": "Pochet Group - Web Applications",
+        "description": "Maintenance and evolution of industrial web applications for production control in glass bottle manufacturing, within a critical and demanding environment",
+        "tags": ["Spring Boot", "ReactJs", "Angular", "MariaDB", "Oracle", "Docker", "Gitlab CI/CD", "AI"]
+      },
+      {
+        "title": "LIG - GenderedNews",
+        "description": "Project consisted of analyzing gender representation in French media. My primary role was to create data processing pipelines and interactive dashboards to effectively visualize the results",
+        "tags": ["Jekyll", "AI", "Python", "MySQL", "Gitlab CI/CD", "HTML/CSS"]
+      }
+    ]
+  },
+  "about_title": "About",
+  "skills_title": "Skills",
+  "projects_title": "Recent Projects",
+  "contact_title": "Contact",
+  "message_sent": "Message sent (demo)",
+
+  "nav": {
+    "portfolio": "Portfolio",
+    "projects": "Projects",
+    "demos": "Demos",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+
+  "blog": {
+    "title": "Blog",
+    "not_found": "Post not found"
+  },
+
+  "demos": {
+    "title": "Live Demonstrations",
+    "markdown_editor": {
+      "title": "Markdown Editor",
+      "preview": "Preview",
+      "placeholder": "Write Markdown here..."
+    },
+    "chart": {
+      "title": "Data Visualization"
+    },
+    "drag_drop": {
+      "title": "Drag & Drop (demo)",
+      "task_a": "Task A",
+      "task_b": "Task B",
+      "task_c": "Task C"
+    }
+  },
+
+  "timeline": {
+    "title": "Timeline",
+    "experiences": [
+      {
+        "year": "08/2025 - Now",
+        "title": "Full Stack Developer Java Spring Boot, ReactJS",
+        "desc": "Freelance"
+      },
+      {
+        "year": "11/2024 - 09/2025",
+        "title": "Software Engineer (web)",
+        "desc": "Vertech' (Full-time)"
+      },
+      {
+        "year": "05/2022 - 11/2024",
+        "title": "Software Development Engineer (Web & mobile)",
+        "desc": "Magellium (Full-time)"
+      }
+    ]
+  },
+
+  "profile": {
+    "name": "NHAT QUANG HO",
+    "title": "Full Stack Developer",
+    "description": "Passionate software engineer specialized in building modern and performant web applications. Expert in React.js, Spring Boot, and cloud architectures with solid experience in developing complete and scalable applications.",
+    "scan_cv": "Scan to view my CV"
+  },
+
+  "skills": {
+    "title": "Technical Skills",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devOps": "DevOps",
+      "database": "Databases"
+    }
+  },
+
+  "map": {
+    "title": "Location"
+  },
+
+  "contact": {
+    "get_in_touch": "Get in Touch",
+    "description": "Have an interesting project? I'd love to discuss it and see how I can help you make it happen.",
+    "reach_me": "You can reach me via the form or through the social networks below.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "form": {
+      "title": "Contact Form",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "demo_message": "This is a demo! To reach me, please send an email to:",
+      "demo_note": "The form is not connected to a backend"
+    },
+    "social": {
+      "title": "Social Networks"
+    }
+  }
+}

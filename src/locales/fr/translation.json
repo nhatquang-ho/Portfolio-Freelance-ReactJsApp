@@ -1,0 +1,138 @@
+{
+  "name": "NHAT QUANG HO",
+  "title": "Développeur Full Stack · Java / ReactJS",
+  "about": "Ingénieur logiciel freelance spécialisé en développement web moderne.",
+  "download_cv": "Télécharger CV",
+  "github": "GitHub",
+  "linkedin": "LinkedIn",
+
+  "projects": {
+    "list": [
+      {
+        "title": "EDF Renouvelables - GAÏA",
+        "description": "Application de gestion foncière. API REST sécurisées (JWT, Azure AD), UI cartographique interactive (ArcGIS SDK), automatisation génération documents, migrations DB",
+        "tags": ["Spring Boot", "ReactJs", "SQL Server", "Gitlab CI/CD", "Docker"]
+      },
+      {
+        "title": "SUEZ - Plugin AriaCity",
+        "description": "Plugin pour le calcul de pollution de l’air, géotraitement et visualisation d’impact environnemental.",
+        "tags": ["ArcGis Pro", "QGIS", "Python", "C#", "Gitlab CI/CD"]
+      },
+      {
+        "title": "ONF - Application Mobile Android",
+        "description": "Application pour la collecte de données terrain, géolocalisation, prise de photos, amélioration des opérations forestières",
+        "tags": ["Kotlin", "JetPack Compose", "Python", "PostgreSQL", "Gitlab CI/CD"]
+      },
+      {
+        "title": "Groupe Pochet - Applications web",
+        "description": "Maintenance et évolution d’applications web industrielles de contrôle de production pour la fabrication de bouteilles en verre, dans un environnement critique et exigeant",
+        "tags": ["Spring Boot", "ReactJs", "Angular", "MariaDB", "Oracle", "Docker", "Gitlab CI/CD", "IA"]
+      },
+      {
+        "title": "LIG - GenderedNews",
+        "description": "Projet a consisté à analyser la représentation des genres dans les médias français. Mon rôle principal était de créer des pipelines de traitement de données et des tableaux de bord interactifs pour visualiser les résultats de manière efficace",
+        "tags": ["Jekyll", "IA", "Python", "MySQL", "Gitlab CI/CD", "HTML/CSS"]
+      }
+    ]
+  },
+  "about_title": "À propos",
+  "skills_title": "Compétences",
+  "projects_title": "Projets récents",
+  "contact_title": "Contact",
+  "message_sent": "Message envoyé (démo)",
+  
+  "nav": {
+    "portfolio": "Portfolio",
+    "projects": "Projets",
+    "demos": "Démos",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+
+  "blog": {
+    "title": "Blog",
+    "not_found": "Article non trouvé"
+  },
+
+  "demos": {
+    "title": "Démonstrations live",
+    "markdown_editor": {
+      "title": "Éditeur Markdown",
+      "preview": "Aperçu",
+      "placeholder": "Écrivez du Markdown ici..."
+    },
+    "chart": {
+      "title": "Visualisation de données"
+    },
+    "drag_drop": {
+      "title": "Drag & Drop (démo)",
+      "task_a": "Tâche A",
+      "task_b": "Tâche B",
+      "task_c": "Tâche C"
+    }
+  },
+
+  "timeline": {
+    "title": "Timeline",
+    "experiences": [
+      {
+        "year": "08/2025 - Maintenant",
+        "title": "Développeur Full Stack Java Spring Boot, ReactJS",
+        "desc": "Freelance"
+      },
+      {
+        "year": "11/2024 - 09/2025",
+        "title": "Ingénieur logiciel (web)",
+        "desc": "Vertech' (CDI)"
+      },
+      {
+        "year": "05/2022 - 11/2024",
+        "title": "Ingénieur d'études et de développement (Web & mobile)",
+        "desc": "Magellium (CDI)"
+      }
+    ]
+  },
+
+  "profile": {
+    "name": "NHAT QUANG HO",
+    "title": "Développeur Full Stack",
+    "description": "Ingénieur logiciel passionné spécialisé dans la création d'applications web modernes et performantes. Expert en React.js, Spring Boot, et architectures cloud avec une solide expérience dans le développement d'applications complètes et scalables.",
+    "scan_cv": "Scanner pour voir mon CV"
+  },
+
+  "skills": {
+    "title": "Compétences Techniques",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devOps": "DevOps",
+      "database": "Bases de données"
+    }
+  },
+
+  "map": {
+    "title": "Localisation"
+  },
+
+  "contact": {
+    "get_in_touch": "Me Contacter",
+    "description": "Vous avez un projet intéressant ? Je serais ravi d'en discuter et de voir comment je peux vous aider à le réaliser.",
+    "reach_me": "Vous pouvez me joindre via le formulaire ou sur les réseaux ci-dessous.",
+    "email": "Email",
+    "phone": "Téléphone",
+    "location": "Localisation",
+    "form": {
+      "title": "Formulaire de contact",
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer le message",
+      "demo_message": "Ceci est une démo ! Pour me contacter, veuillez m'envoyer un email à :",
+      "demo_note": "Le formulaire n'est pas connecté à un backend"
+    },
+    "social": {
+      "title": "Réseaux sociaux"
+    }
+  }
+}
