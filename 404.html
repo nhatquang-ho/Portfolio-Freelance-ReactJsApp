@@ -3,13 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Redirecting…</title>
-    <script type="text/javascript">
-      // Preserve the path and query when redirecting
-      var redirectUrl = '/Portfolio-Freelance-ReactJsApp' + window.location.pathname + window.location.search + window.location.hash;
-      window.location.replace(redirectUrl);
+    <script>
+      (function() {
+        var base = '/Portfolio-Freelance-ReactJsApp';
+        var path = window.location.pathname;
+        // Avoid infinite loop: only prepend base if not already there
+        if (!path.startsWith(base)) {
+          window.location.replace(base + path + window.location.search + window.location.hash);
+        } else {
+          // Already inside base, just reload index.html
+          window.location.replace(base + '/index.html');
+        }
+      })();
     </script>
   </head>
-  <body>
-    Redirecting…
-  </body>
+  <body>Redirecting…</body>
 </html>
