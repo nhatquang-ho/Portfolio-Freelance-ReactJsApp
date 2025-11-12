@@ -98,4 +98,7 @@ npx vitest run --environment jsdom
 # build & preview
 npm run build
 npm run preview
+
+# deploy gh-pages
+npx gh-pages -d dist
 ```

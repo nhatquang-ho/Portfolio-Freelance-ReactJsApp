@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Typography, List, ListItem, ListItemText } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom'
 
 const posts = import.meta.glob('../posts/*.md', { eager: true, query: '?raw', import: 'default' });
 
@@ -13,7 +14,9 @@ export default function Blog() {
       <Typography variant="h4" sx={{ mb: 3 }}>{t('blog.title')}</Typography>
       <List>
         {keys.map((k) => (
-          <ListItem key={k} component="a" href={`/Portfolio-Freelance-ReactJsApp/posts/${k?.replace('.md','')}`}>
+          <ListItem key={k}
+            component={Link}
+            to={`/posts/${k?.replace('.md', '')}`}>
             <ListItemText primary={k} />
           </ListItem>
         ))}
