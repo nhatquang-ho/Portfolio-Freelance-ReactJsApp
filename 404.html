@@ -7,12 +7,8 @@
       (function() {
         var base = '/Portfolio-Freelance-ReactJsApp';
         var path = window.location.pathname;
-        // Avoid infinite loop: only prepend base if not already there
         if (!path.startsWith(base)) {
           window.location.replace(base + path + window.location.search + window.location.hash);
-        } else {
-          // Already inside base, just reload index.html
-          window.location.replace(base + '/index.html');
         }
       })();
     </script>
