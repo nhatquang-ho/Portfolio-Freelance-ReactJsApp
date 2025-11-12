@@ -1,8 +1,15 @@
-<!-- public/404.html -->
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/Portfolio-Freelance-ReactJsApp/" />
+    <meta charset="utf-8">
+    <title>Redirecting…</title>
+    <script type="text/javascript">
+      // Preserve the path and query when redirecting
+      var redirectUrl = '/Portfolio-Freelance-ReactJsApp' + window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace(redirectUrl);
+    </script>
   </head>
-  <body></body>
+  <body>
+    Redirecting…
+  </body>
 </html>
